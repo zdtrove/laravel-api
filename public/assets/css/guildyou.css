@@ -1,0 +1,4205 @@
+
+.header__menu__list__item__sub-item {
+  color: #fff;
+  font-size: 15px;
+  padding: 20px;
+  padding-left: 40px;
+  width: calc(100% - 60px);
+}
+
+.header__menu__list__item__sub-item:first-child {
+  margin: 20px 0 0;
+}
+
+.header__menu__list__item__sub-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.background--guildyou {
+  background-color: #eeeeee;
+  min-height: 100vh;
+}
+br.dk-hide.mb-show {
+  display: none;
+}
+@media (max-width: 768px) {
+  .mb-hide { display: none !important; }
+  .mb-0 { margin-bottom: 0 !important;}
+  br.mb-show {
+    display: inherit !important;
+  }
+  .mb-m-0 {
+    margin-bottom: 0 !important;
+  }
+}
+
+.guildyou {
+  position: relative;
+  padding-top: 60px;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .guildyou {
+    padding-top: 45px;
+  }
+}
+
+.guildyou *, .guildyou ::after, .guildyou ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.guildyou__wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1124px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .guildyou__wrapper {
+    padding: 0 15px;
+  }
+}
+
+.guildyou--header {
+  position: absolute;
+  top: 62px;
+  left: 27px;
+  z-index: 2;
+  width: 26%;
+}
+.guildyou--header a {
+  display: inline-block;
+}
+
+.guildyou--header h2 {
+  display: inline-block;
+  font-family: 'Gotham Black Regular';
+  font-size: 86px;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  color: #000000;
+  text-align: left;
+}
+.guildyou--header img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+@media (max-width: 1100px) {
+  .guildyou--header h2 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 900px) {
+  .guildyou--header {
+    left: 30px;
+    width: 23%;
+  }
+  .guildyou--header h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou--header {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 75px 50px;
+    background-color: #b5b5b5;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    text-align: center;
+  }
+  .guildyou--header h2 {
+    max-width: 180px;
+  }
+}
+
+.guildyou--top {
+  padding: 105px 0 87px;
+}
+
+.guildyou--top__embed {
+  width: 69.55%;
+  max-width: 740px;
+  margin-left: auto;
+  margin-bottom: 60px;
+  background-color: #b5b5b5;
+  position: relative;
+}
+
+.guildyou--top__embed::before {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.guildyou--top__embed-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: none;
+}
+
+.guildyou--top__intro {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+
+.guildyou--top__intro p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1100px) {
+  .guildyou--top {
+    padding: 95px 0 75px;
+  }
+  .guildyou--top__embed {
+    /* width: calc(100% - 260px); */
+  }
+}
+
+@media (max-width: 900px) {
+  .guildyou--top {
+    padding: 80px 0 50px;
+  }
+  .guildyou--top__embed {
+    /* width: calc(100% - 200px); */
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou--top {
+    padding: 0 0 40px;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-bottom: 30px;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #b5b5b5;
+  }
+  .guildyou--top__embed {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .guildyou--top__intro {
+    padding: 0 15px 50px;
+    font-size: 14px;
+    z-index: 2;
+  }
+}
+
+.guildyou--main {
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.guildyou--main__title {
+  display: block;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .guildyou--main {
+    padding-bottom: 40px;
+  }
+  .guildyou--main__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou--main {
+    padding-bottom: 20px;
+  }
+  .guildyou--main__title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+.guildyou--list-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -8px;
+}
+
+@media (max-width: 768px) {
+  .guildyou--list-card {
+    margin: 0 auto;
+  }
+}
+
+.guildyou--back-to-page {
+  position: absolute;
+  top: 95px;
+  left: 20px;
+  width: 25px;
+  height: 45px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.guildyou-detail--back-to-page a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.guildyou--back-to-page span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../../assets/image/icon/icon-back.png") no-repeat center;
+  background-size: contain;
+}
+
+.card--link-hidden {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.card--guildyou {
+  width: 33%;
+  padding: 0 8px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 900px) {
+  .card--guildyou {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card--guildyou {
+    margin-bottom: 16px;
+  }
+}
+
+.card--guildyou__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
+@media (max-width: 900px) {
+  .card--guildyou__wrapper {
+    flex-direction: inherit;
+    -webkit-flex-direction: inherit;
+  }
+}
+@media (max-width: 575px) {
+  .card--guildyou__wrapper {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+  }
+}
+
+.card--guildyou__wrapper:hover .card--guildyou__image img {
+  -webkit-transform: scale3d(1.03, 1.03, 1);
+          transform: scale3d(1.03, 1.03, 1);
+}
+
+.card--guildyou__image {
+  position: relative;
+  width: 100%;
+  background-color: #959595;
+  overflow: hidden;
+}
+
+.card--guildyou__image::before {
+  content: '';
+  display: block;
+  padding-top: 54.25%;
+}
+
+.card--guildyou__image img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+@media (max-width: 900px) {
+  .card--guildyou__image {
+    width: 50%;
+  }
+  .card--guildyou__image::before {
+    padding-top: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card--guildyou__image::before {
+    padding-top: 71.04%;
+  }
+}
+
+@media (max-width: 575px) {
+  .card--guildyou__image {
+    width: 100%;
+  }
+  .card--guildyou__image::before {
+    padding-top: 54.25%;
+  }
+}
+
+.card--guildyou__body {
+  width: 100%;
+  padding: 15px 14px 15px 16px;
+  height: calc(100% - 51%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .card--guildyou__body {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .card--guildyou__body {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+.card--guildyou__copy {
+  width: 100%;
+  margin-top: auto;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .card--guildyou__copy {
+    padding-top: 15px;
+  }
+}
+
+.card--guildyou__title {
+  font-size: 16px;
+  line-height: 1.3;
+  font-family: "Hiragino Sans";
+}
+.card--guildyou__title span {
+  position: relative;
+  display: block;
+}
+.card--guildyou__title span::before {
+  content: "“";
+  display: inline-block;
+  position: absolute;
+  top: -5px;
+  left: -7px;
+}
+.card--guildyou__title span::after {
+  content: "”";
+  display: inline-block;
+  margin-right: -6px;
+}
+
+@media (max-width: 900px) {
+  .card--guildyou__title {
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    height: calc(100% - 69px);
+  }
+}
+@media (max-width: 710px) {
+  .card--guildyou__title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 640px) {
+  .card--guildyou__title {
+    font-size: 18px;
+  }
+  .card--guildyou__title br {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .card--guildyou__title {
+    padding-top: 5px;
+  }
+}
+
+.card--guildyou__text {
+  max-width: calc(100% - 100px);
+}
+
+.card--guildyou__text p {
+  font-size: 15px;
+}
+
+.card--guildyou__name-kanji {
+  font-size: 20px;
+}
+
+.card--guildyou__time {
+  margin-left: auto;
+  text-align: right;
+}
+
+.card--guildyou__time .status {
+  font-size: 13px;
+  color: #d80000;
+  text-transform: uppercase;
+}
+
+.card--guildyou__time .time {
+  font-size: 15px;
+}
+
+@media (max-width: 900px) {
+  .card--guildyou__text p {
+    font-size: 19px;
+  }
+
+  .card--guildyou__name-kanji {
+    font-size: 21px;
+  }
+  .card--guildyou__time .status {
+    font-size: 19px;
+    font-weight: 500;
+  }
+  
+  .card--guildyou__time .time {
+    font-size: 19px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 640px) {
+  .card--guildyou__text p {
+    font-size: 16px;
+  }
+
+  .card--guildyou__name-kanji {
+    font-size: 18px;
+  }
+  .card--guildyou__time .status {
+    font-size: 16px;
+  }
+  
+  .card--guildyou__time .time {
+    font-size: 16px;
+  }
+}
+
+.guildyou-detail {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+}
+
+.guildyou-detail *, .guildyou-detail ::after, .guildyou-detail ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.guildyou-detail__wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1124px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .guildyou-detail__wrapper {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 640px) {
+  .guildyou-detail__wrapper {
+    padding: 0 20px;
+  }
+}
+
+.guildyou-detail--header {
+  position: absolute;
+  top: 47px;
+  left: 27px;
+  width: 12.456%;
+  z-index: 2;
+}
+.guildyou-detail--header a{
+  display: block;
+}
+
+.guildyou-detail--header img{
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.guildyou-detail--header h2 {
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 1.3;
+  color: #000000;
+}
+
+@media (max-width: 1160px) {
+  .guildyou-detail--header {
+    left: 60px;
+  }
+  .guildyou-detail--header h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--header {
+    top: 29px;
+    width: 100%;
+    max-width: 125px;
+    left: 70px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--header {
+    top: 24px;
+    left: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--header {
+    max-width: 80px;
+  }
+}
+
+.guildyou-detail--contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 55px;
+  background-color: #e5e5e5;
+  font-family: "YuGothic",'Yu Gothic';
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--contact {
+    width: calc(100% + 60px);
+    padding: 30px;
+    margin-left: -30px;
+    margin-top: 240px;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--contact {
+    margin-top: 130px;
+  }
+}
+
+.guildyou-detail--contact__avatar {
+  background-image: url("../../assets/image/icon/icon-user-default.svg");
+  background-size: cover;
+  border-radius: 100%;
+  width: 255px;
+}
+
+.guildyou-detail--contact__avatar::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--contact__avatar {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: -230px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--contact__avatar {
+    max-width: 200px;
+    margin-top: -130px;
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--contact__copy {
+  width: calc(100% - 255px);
+  padding-left: 55px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--contact__copy {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.guildyou-detail--contact__copy > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+.guildyou-detail--contact__copy > p.mb-20 {
+  margin-bottom: 20px;
+}
+.guildyou-detail--contact__copy > p br.hide-1075 {
+  display: inherit;
+}
+@media (max-width: 1075px) {
+  .guildyou-detail--contact__copy > p br.hide-1075 {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .guildyou-detail--contact__copy p {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--contact__copy p br {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--contact__copy p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+.guildyou-detail--contact__copy small {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--contact__copy small {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+  }
+}
+@media (max-width: 640px) {
+  .guildyou-detail--contact__copy small {
+    font-size: 12px;
+  }
+}
+
+.guildyou-detail--contact .text-red {
+  color: #ff0000;
+}
+
+.guildyou-detail--contact .mb-90 {
+  margin-bottom: 90px;
+}
+
+.guildyou-detail--contact__appeal-point {
+  margin-bottom: 13px !important;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--contact__appeal-point {
+    text-align: center;
+    font-size: 38px !important;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--contact__appeal-point {
+    font-size: 19px !important;
+  }
+}
+
+.guildyou-detail--contact__name-kanji {
+  font-size: 30px;
+  line-height: 1.3;
+  margin-bottom: 7px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--contact__name-kanji {
+    text-align: center;
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--contact__name-kanji {
+    font-size: 20px !important;
+  }
+}
+
+.guildyou-detail--contact__name-hiragana {
+  font-size: 18px;
+  margin-bottom: 35px !important;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--contact__name-hiragana {
+    text-align: center;
+    font-size: 38px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--contact__name-hiragana {
+    font-size: 19px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+.guildyou-detail--contact a {
+  font-size: 16px;
+  color: #000000;
+}
+
+.guildyou-detail--contact__link {
+  display: inline-block;
+}
+
+.guildyou-detail--contact__link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.guildyou-detail--contact__btn-link {
+  display: inline-block;
+  font-weight: 500;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  padding: 30px 60px;
+}
+.guildyou-detail--contact__btn-link span.icon-arrow {
+  max-width: 140px;
+}
+
+.guildyou-detail--contact__btn-link:hover {
+  opacity: 0.8;
+}
+
+.guildyou-detail--contact__btn-link:hover span.icon-arrow {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.guildyou-detail--contact__btn-link span.icon-arrow {
+  display: inline-block;
+  padding-left: 15px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.guildyou-detail--contact__btn-link span.icon-arrow img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--contact a {
+    font-size: 38px;
+  }
+  .guildyou-detail--contact__btn-link {
+    display: block;
+    width: 100%;
+    max-width: 670px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 98px 40px;
+  }
+  .guildyou-detail--contact__btn-link span.icon-arrow {
+    margin-top: 30px;
+    max-width: 280px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--contact a {
+    font-size: 19px;
+  }
+  .guildyou-detail--contact__btn-link {
+    padding: 44px 10px;
+  }
+  .guildyou-detail--contact__btn-link span.icon-arrow {
+    width: 100%;
+    max-width: 140px;
+    padding: 10px 0 0 !important;
+    margin-top: 0;
+  }
+}
+
+.guildyou-detail--back-to-page {
+  position: absolute;
+  top: 95px;
+  left: 20px;
+  width: 25px;
+  height: 45px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+@media (max-width: 900px) {
+  .guildyou--back-to-page, .guildyou-detail--back-to-page {
+    top: 70px;
+  }
+}
+
+.guildyou-detail--back-to-page a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.guildyou-detail--back-to-page span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url("../../assets/image/icon/icon-back.png") no-repeat center;
+  background-size: contain;
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--back-to-page {
+    top: 70px;
+    left: 15px;
+    height: 35px;
+  }
+}
+
+.guildyou-detail--top-anzai {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 60px;
+  padding-left: 16.542%;
+  margin-bottom: 54px;
+}
+
+@media (max-width: 1160px) {
+  .guildyou-detail--top-anzai {
+    padding-left: calc(16.542% + 30px);
+  }
+}
+@media (max-width: 900px) {
+  .guildyou-detail--top-anzai {
+    padding-left: 0;
+    margin-bottom: 35px;
+    padding-top: 45px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-anzai {
+    margin-bottom: 30px;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-anzai {
+    padding-top: 50px;
+  }
+}
+
+.guildyou-detail--top-anzai__img {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-anzai__img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+.guildyou-detail--top-anzai__img img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.guildyou-detail--top-anzai__information {
+  width: 30%;
+  padding: 15px 0;
+  color: #000000;
+}
+
+.guildyou-detail--top-anzai__information__appeal-point {
+  font-family: YuGothic, "Yu Gothic";
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-anzai__information__appeal-point {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--top-anzai__information__name-kanji {
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-anzai__information__name-kanji {
+    font-size: 22px;
+  }
+}
+
+.guildyou-detail--top-anzai__information__name-hiragana {
+  font-family: YuGothic, "Yu Gothic";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-anzai__information__name-hiragana {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-anzai__information {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-left: auto;
+    margin-top: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-anzai__information {
+    width: 100%;
+    max-width: 170px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-anzai__information {
+    padding: 55px 0 40px;
+    margin-top: 0;
+    max-width: 150px;
+    padding: 15px 0 30px;
+  }
+}
+
+.guildyou-detail--top-anzai__quote {
+  width: 70%;
+  max-width: 480px;
+  margin-left: auto;
+  margin-top: 66px;
+  margin-bottom: 17px;
+}
+
+.guildyou-detail--top-anzai__quote h5 {
+  font-family: YuGothic, "Yu Gothic";
+  text-align: right;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.35;
+  color: #000000;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-anzai__quote h5 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-anzai__quote h5 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-anzai__quote {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-anzai__quote {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .guildyou-detail--top-anzai__quote br {
+    display: none;
+  }
+}
+
+.guildyou-detail--top-anzai__description {
+  width: 100%;
+  font-size: 15px;
+  color: #000000;
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-anzai__description {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .guildyou-detail--top-anzai__description br {
+    display: none;
+  }
+}
+
+.guildyou-detail--main-anzai {
+  font-family: "Hiragino Sans";
+  font-size: 16px;
+  line-height: 1.875;
+  color: #000000;
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-anzai {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+}
+
+.guildyou-detail--main-anzai p, .guildyou-detail--main-anzai ul {
+  width: 100%;
+  display: block;
+  max-width: 890px;
+  letter-spacing: -1px;
+}
+
+.guildyou-detail--main-anzai p:not(:last-child), .guildyou-detail--main-anzai ul:not(:last-child) {
+  margin-bottom: 27px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-anzai p br, .guildyou-detail--main-anzai ul br {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-anzai p:not(:last-child), .guildyou-detail--main-anzai ul:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-anzai strong, .guildyou-detail--main-anzai b {
+  font-family: YuGothic, "Yu Gothic";
+  display: block;
+  max-width: 990px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+.guildyou-detail--main-anzai ul, .guildyou-detail--main-anzai li {
+  list-style-type: disc;
+  margin-left: 10px;
+}
+
+.guildyou-detail--main-anzai .text-outline {
+  background-color: #fff799;
+  background-color: rgba(255, 247, 153, 0.9);
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+  padding: 0px 2px;
+  border-radius: 4px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.guildyou-detail--main-anzai__block-style-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 69px;
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-anzai__block-style-1 {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-anzai__block-style-1__left {
+  width: 39%;
+}
+
+.guildyou-detail--main-anzai__block-style-1__left .figure {
+  display: inline-block;
+}
+
+.guildyou-detail--main-anzai__block-style-1__left .figure .figure-img {
+  max-width: 100%;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.guildyou-detail--main-anzai__block-style-1__left .figure .figure-caption {
+  font-size: 16px;
+  color: #3f3f3f;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-anzai__block-style-1__left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-anzai__block-style-1__left {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-anzai__block-style-1__right {
+  width: 61%;
+  padding-left: 30px;
+}
+
+.guildyou-detail--main-anzai__block-style-1__right p {
+  letter-spacing: -2px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-anzai__block-style-1__right {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+.guildyou-detail--main-anzai__block-style-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 37px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-anzai__block-style-2 {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-anzai__block-style-2 {
+    margin-bottom: 20px;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    padding: 20px;
+  }
+}
+
+.guildyou-detail--main-anzai__block-style-2__left {
+  position: relative;
+  width: calc(50% - 10px);
+  background-color: #aaaaaa;
+}
+
+.guildyou-detail--main-anzai__block-style-2__left iframe {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-anzai__block-style-2__left {
+    width: 100%;
+  }
+  .guildyou-detail--main-anzai__block-style-2__left::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+  }
+}
+
+.guildyou-detail--main-anzai__block-style-2__right {
+  width: 50%;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-anzai__block-style-2__right {
+    width: 100%;
+    padding: 20px 0 0;
+  }
+}
+
+.guildyou-detail--main-anzai__block-style-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.guildyou-detail--main-anzai__block-style-3__left {
+  width: 39%;
+  padding-right: 54px;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--main-anzai__block-style-3__left {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-anzai__block-style-3__left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-anzai__block-style-3__left {
+    margin-bottom: 20px;
+  }
+}
+
+.guildyou-detail--main-anzai__block-style-3__left .figure {
+  display: inline-block;
+}
+
+.guildyou-detail--main-anzai__block-style-3__left .figure .figure-img {
+  max-width: 100%;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.guildyou-detail--main-anzai__block-style-3__left .figure .figure-caption {
+  font-size: 16px;
+  color: #3f3f3f;
+  letter-spacing: -1px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-anzai__block-style-3__left .figure {
+    text-align: center;
+  }
+  .guildyou-detail--main-anzai__block-style-3__left .figure .figure-caption {
+    text-align: left;
+  }
+}
+
+.guildyou-detail--main-anzai__block-style-3__right {
+  width: 61%;
+  padding-left: 60px;
+}
+
+.guildyou-detail--main-anzai__block-style-3__right p {
+  letter-spacing: -2px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-anzai__block-style-3__right {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.guildyou-detail--top-fujimori {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 60px;
+  padding-left: 16.542%;
+  margin-bottom: 46px;
+}
+@media (max-width: 1160px) {
+  .guildyou-detail--top-fujimori {
+    padding-left: calc(16.542% + 30px);
+  }
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-fujimori {
+    padding-left: 0;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-fujimori {
+    padding-top: 65px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-fujimori {
+    padding-top: 35px;
+  }
+}
+
+.guildyou-detail--top-fujimori__img {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-fujimori__img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+.guildyou-detail--top-fujimori__img img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.guildyou-detail--top-fujimori__information {
+  width: 20%;
+  padding: 22px 0;
+  color: #000000;
+}
+
+.guildyou-detail--top-fujimori__information__appeal-point {
+  font-family: YuGothic, "Yu Gothic";
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1120px) {
+  .guildyou-detail--top-fujimori__information {
+    width: 25%;
+  }
+} 
+@media (max-width: 480px) {
+  .guildyou-detail--top-fujimori__information__appeal-point {
+    font-size: 16px;
+  }
+}
+
+.guildyou-detail--top-fujimori__information__name-kanji {
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+ 
+@media (max-width: 480px) {
+  .guildyou-detail--top-fujimori__information__name-kanji {
+    font-size: 22px;
+  }
+}
+
+.guildyou-detail--top-fujimori__information__name-hiragana {
+  font-family: YuGothic, "Yu Gothic";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-fujimori__information__name-hiragana {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-fujimori__information {
+    width: 100%;
+    max-width: 240px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 30px 0 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-fujimori__information {
+    max-width: 210px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-fujimori__information {
+    margin: 0;
+    max-width: 160px;
+    padding: 30px 0;
+    margin-left: auto;
+  }
+}
+
+.guildyou-detail--top-fujimori__quote {
+  width: 76%;
+  margin-left: auto;
+  margin-top: 52px;
+  margin-bottom: 46px;
+}
+
+.guildyou-detail--top-fujimori__quote h5 {
+  font-family: YuGothic, "Yu Gothic";
+  text-align: left;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.35;
+  color: #000000;
+}
+@media (max-width: 1120px) {
+  .guildyou-detail--top-fujimori__quote {
+    width: 70%;
+  }
+}
+@media (max-width: 991px) {
+  .guildyou-detail--top-fujimori__quote h5 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-fujimori__quote h5 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-fujimori__quote {
+    width: 100%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-fujimori__quote {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .guildyou-detail--top-fujimori__quote br {
+    display: none;
+  }
+}
+
+.guildyou-detail--top-fujimori__description {
+  width: 100%;
+  font-size: 15px;
+  color: #000000;
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-fujimori__description {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .guildyou-detail--top-fujimori__description br {
+    display: none;
+  }
+}
+
+.guildyou-detail--main-fujimori {
+  font-family: "Hiragino Sans";
+  font-size: 16px;
+  line-height: 1.875;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-fujimori {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+}
+
+.guildyou-detail--main-fujimori p, .guildyou-detail--main-fujimori ul {
+  width: 100%;
+  display: block;
+  max-width: 990px;
+  letter-spacing: -1px;
+}
+
+.guildyou-detail--main-fujimori p:not(:last-child), .guildyou-detail--main-fujimori ul:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-fujimori p br, .guildyou-detail--main-fujimori ul br {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-fujimori p:not(:last-child), .guildyou-detail--main-fujimori ul:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-fujimori strong, .guildyou-detail--main-fujimori b {
+  font-family: YuGothic, "Yu Gothic";
+  display: block;
+  max-width: 990px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-fujimori strong br, .guildyou-detail--main-fujimori b br {
+    display: none;
+  }
+}
+
+.guildyou-detail--main-fujimori ul, .guildyou-detail--main-fujimori li {
+  list-style-type: disc;
+  margin-left: 10px;
+}
+
+.guildyou-detail--main-fujimori .text-outline {
+  background-color: #fff799;
+  background-color: rgba(255, 247, 153, 0.9);
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+  padding: 0px 2px;
+  border-radius: 4px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.guildyou-detail--main-fujimori .mt-68 {
+  margin-top: -68px;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-fujimori .mt-68 {
+    margin-top: 0;
+  }
+}
+
+.guildyou-detail--main-fujimori__block-embed {
+  width: 47%;
+  margin-left: 0;
+  margin-bottom: 27px;
+  margin-top: 48px;
+}
+
+.guildyou-detail--main-fujimori__block-embed .embed-item {
+  position: relative;
+  width: 100%;
+  background-color: #aaaaaa;
+}
+
+.guildyou-detail--main-fujimori__block-embed .embed-item::before {
+  content: '';
+  display: block;
+  padding-top: 56.25%;
+}
+
+.guildyou-detail--main-fujimori__block-embed .embed-item iframe, .guildyou-detail--main-fujimori__block-embed .embed-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-fujimori__block-embed .embed-item {
+    margin-top: 0;
+  }
+}
+
+.guildyou-detail--main-fujimori__block-embed .embed-caption {
+  padding-top: 10px;
+}
+
+.guildyou-detail--main-fujimori__block-embed .embed-caption p {
+  letter-spacing: 0;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-fujimori__block-embed {
+    width: 100%;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-fujimori__block-embed {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
+
+.guildyou-detail--main-fujimori__block-embed-right {
+  width: 46%;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+
+.guildyou-detail--main-fujimori__block-embed-right .embed-item {
+  position: relative;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #aaaaaa;
+}
+
+.guildyou-detail--main-fujimori__block-embed-right .embed-item::before {
+  content: '';
+  display: block;
+  padding-top: 56.25%;
+}
+
+.guildyou-detail--main-fujimori__block-embed-right .embed-item iframe, .guildyou-detail--main-fujimori__block-embed-right .embed-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-fujimori__block-embed-right .embed-item {
+    margin-top: 0;
+  }
+}
+
+.guildyou-detail--main-fujimori__block-embed-right .embed-caption {
+  padding-top: 10px;
+}
+
+.guildyou-detail--main-fujimori__block-embed-right .embed-caption p {
+  letter-spacing: 0;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-fujimori__block-embed-right {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+}
+
+.guildyou-detail--main-fujimori__block-text {
+  width: 47%;
+  margin-bottom: 27px;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-fujimori__block-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-fujimori__block-text {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-fujimori__block-text-right {
+  width: 53%;
+  padding-left: 30px;
+  margin-left: auto;
+  margin-bottom: 44px;
+  margin-top: 35px;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-fujimori__block-text-right {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-fujimori__block-text-right {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
+
+.guildyou-detail--top-rutsuko {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 173px;
+  margin-bottom: 87px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-rutsuko {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-rutsuko {
+    padding-top: 35%;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-rutsuko {
+    margin-bottom: 30px;
+  }
+}
+
+.guildyou-detail--top-rutsuko__img {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  max-width: 475px;
+  margin-right: 0;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-rutsuko__img {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-rutsuko__img {
+    width: 55%;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-rutsuko__img {
+    width: 60%;
+  }
+}
+
+.guildyou-detail--top-rutsuko__img img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.guildyou-detail--top-rutsuko__information {
+  width: 100%;
+  max-width: calc(100% - 518px);
+  padding: 15px 0;
+  color: #000000;
+  text-align: right;
+}
+
+.guildyou-detail--top-rutsuko__information__appeal-point {
+  font-family: YuGothic, "Yu Gothic";
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-rutsuko__information__appeal-point {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--top-rutsuko__information__name-kanji {
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+@media (max-width: 540px) {
+  .guildyou-detail--top-rutsuko__information__name-kanji {
+    font-size: 29px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-rutsuko__information__name-kanji {
+    font-size: 22px;
+  }
+}
+
+.guildyou-detail--top-rutsuko__information__name-hiragana {
+  font-family: YuGothic, "Yu Gothic";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-rutsuko__information__name-hiragana {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-rutsuko__information {
+    max-width: inherit;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-rutsuko__information {
+    width: 40%;
+    padding: 13% 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-rutsuko__information {
+    width: 35%;
+    padding: 22% 0 10%;
+  }
+}
+
+.guildyou-detail--top-rutsuko__quote {
+  width: 100%;
+  max-width: calc(100% - 518px);
+  margin-top: 43px;
+  margin-bottom: 50px;
+}
+
+.guildyou-detail--top-rutsuko__quote h5 {
+  font-family: YuGothic, "Yu Gothic";
+  text-align: left;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.35;
+  color: #000000;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-rutsuko__quote h5 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-rutsuko__quote h5 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-rutsuko__quote {
+    max-width: inherit;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-rutsuko__quote {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-rutsuko__quote {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.guildyou-detail--top-rutsuko__description {
+  width: 100%;
+  max-width: calc(100% - 510px);
+  font-size: 15px;
+  color: #000000;
+  line-height: 1.8;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-rutsuko__description {
+    max-width: inherit;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-rutsuko__description {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-rutsuko__description {
+    font-size: 14px;
+  }
+}
+
+.guildyou-detail--main-rutsuko {
+  font-family: "Hiragino Sans";
+  font-size: 16px;
+  line-height: 1.875;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 102px;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--main-rutsuko {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+}
+
+.guildyou-detail--main-rutsuko p, .guildyou-detail--main-rutsuko ul {
+  width: 100%;
+  display: block;
+  max-width: 990px;
+  letter-spacing: -1px;
+}
+
+.guildyou-detail--main-rutsuko p:not(:last-child), .guildyou-detail--main-rutsuko ul:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-rutsuko p br, .guildyou-detail--main-rutsuko ul br {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko p:not(:last-child), .guildyou-detail--main-rutsuko ul:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-rutsuko strong, .guildyou-detail--main-rutsuko b {
+  font-family: YuGothic, "Yu Gothic";
+  display: block;
+  max-width: 990px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+.guildyou-detail--main-rutsuko ul, .guildyou-detail--main-rutsuko li {
+  list-style-type: disc;
+  margin-left: 10px;
+}
+
+.guildyou-detail--main-rutsuko .text-outline {
+  background-color: #fff799;
+  background-color: rgba(255, 247, 153, 0.9);
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+  padding: 0px 2px;
+  border-radius: 4px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.guildyou-detail--main-rutsuko__block-embed {
+  width: 49%;
+  margin-left: 0;
+  margin-bottom: 27px;
+}
+
+.guildyou-detail--main-rutsuko__block-embed .embed-item {
+  position: relative;
+  width: 100%;
+  margin-top: 11px;
+  background-color: #010000;
+}
+
+.guildyou-detail--main-rutsuko__block-embed .embed-item::before {
+  content: '';
+  display: block;
+  padding-top: 56.25%;
+}
+
+.guildyou-detail--main-rutsuko__block-embed .embed-item iframe, .guildyou-detail--main-rutsuko__block-embed .embed-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-embed .embed-item {
+    margin: 0;
+  }
+}
+
+.guildyou-detail--main-rutsuko__block-embed .embed-caption {
+  padding-top: 18px;
+  color: #010000;
+}
+
+.guildyou-detail--main-rutsuko__block-embed .embed-caption p {
+  letter-spacing: 0;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-rutsuko__block-embed {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-embed {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-rutsuko__block-image {
+  width: 50%;
+  padding-right: 50px;
+  margin-left: 0;
+  margin-bottom: 97px;
+  padding-left: 14px;
+}
+
+.guildyou-detail--main-rutsuko__block-image .image-item {
+  position: relative;
+  width: 100%;
+  margin-top: 33px;
+}
+.guildyou-detail--main-rutsuko__block-image .image-item img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-rutsuko__block-image .image-item {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-image .image-item {
+    margin: 0;
+    text-align: center
+  }
+}
+
+.guildyou-detail--main-rutsuko__block-image .image-caption {
+  padding-top: 8px;
+  color: #010000;
+}
+
+.guildyou-detail--main-rutsuko__block-image .image-caption p {
+  letter-spacing: 0;
+}
+@media (max-width: 900px) {
+  .guildyou-detail--main-rutsuko__block-image {
+    padding-right: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-rutsuko__block-image {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-image {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-rutsuko__block-image-2 {
+  width: 50%;
+  padding-right: 50px;
+  margin-left: 0;
+  margin-bottom: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.guildyou-detail--main-rutsuko__block-image-2 .image-item {
+  position: relative;
+  width: 100%;
+}
+.guildyou-detail--main-rutsuko__block-image-2 .image-item img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-image-2 .image-item {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.guildyou-detail--main-rutsuko__block-image-2 .image-caption {
+  padding-top: 15px;
+  color: #010000;
+}
+
+.guildyou-detail--main-rutsuko__block-image-2 .image-caption p {
+  letter-spacing: 0;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-rutsuko__block-image-2 {
+    padding-right: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-rutsuko__block-image-2 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-image-2 {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-rutsuko__block-embed-right {
+  width: 48%;
+  margin-left: auto;
+  margin-bottom: 56px;
+}
+
+.guildyou-detail--main-rutsuko__block-embed-right .embed-item {
+  position: relative;
+  width: 100%;
+  margin-top: 7px;
+  background-color: #010000;
+}
+
+.guildyou-detail--main-rutsuko__block-embed-right .embed-item::before {
+  content: '';
+  display: block;
+  padding-top: 56.25%;
+}
+
+.guildyou-detail--main-rutsuko__block-embed-right .embed-item iframe, .guildyou-detail--main-rutsuko__block-embed-right .embed-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-embed-right .embed-item {
+    margin: 0;
+  }
+}
+
+.guildyou-detail--main-rutsuko__block-embed-right .embed-caption {
+  padding-top: 18px;
+  color: #010000;
+}
+
+.guildyou-detail--main-rutsuko__block-embed-right .embed-caption p {
+  letter-spacing: 0;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-rutsuko__block-embed-right {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-embed-right {
+    margin-bottom: 15px;
+  }
+}
+
+
+.guildyou-detail--main-rutsuko__block-image-right {
+  width: 40.5%;
+  margin-left: auto;
+  margin-bottom: 30px;
+  padding-top: 93px;
+}
+
+.guildyou-detail--main-rutsuko__block-image-right .image-item {
+  position: relative;
+  width: 100%;
+}
+.guildyou-detail--main-rutsuko__block-image-right .image-item img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-image-right .image-item {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.guildyou-detail--main-rutsuko__block-image-right .image-caption {
+  padding-top: 10px;
+  color: #010000;
+}
+
+.guildyou-detail--main-rutsuko__block-image-right .image-caption p {
+  letter-spacing: 0;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-rutsuko__block-image-right {
+    width: 50%;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-rutsuko__block-image-right {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-image-right {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-rutsuko__block-text {
+  width: 50%;
+  margin-bottom: 54px;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-rutsuko__block-text {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-text {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-rutsuko__block-text-right {
+  width: 50%;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-top: 9px;
+}
+@media (max-width: 900px) {
+  .guildyou-detail--main-rutsuko__block-text-right {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-rutsuko__block-text-right {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-rutsuko__block-text-right {
+    margin-bottom: 15px;
+  }
+}
+/* ---- Style 2 ------- */
+
+.guildyou-detail--top-style2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 173px;
+  margin-bottom: 53px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-style2 {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style2 {
+    padding-top: 35%;
+    margin-bottom: 72px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-style2 {
+    margin-bottom: 30px;
+  }
+}
+
+.guildyou-detail--top-style2__img {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  max-width: 475px;
+  margin-right: 0;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-style2__img {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style2__img {
+    width: 65.5%;
+    top: 56px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-style2__img {
+    width: 60%;
+    top: 45px;
+  }
+}
+
+.guildyou-detail--top-style2__img img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.guildyou-detail--top-style2__information {
+  width: 100%;
+  max-width: calc(100% - 518px);
+  padding: 15px 0;
+  color: #000000;
+  text-align: right;
+}
+
+.guildyou-detail--top-style2__information__appeal-point {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: YuGothic, "Yu Gothic";
+}
+@media (max-width: 768px) {
+  .guildyou-detail--top-style2__information__appeal-point {
+    font-size: 22px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-style2__information__appeal-point {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+}
+
+.guildyou-detail--top-style2__information__name-kanji {
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--top-style2__information__name-kanji {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-style2__information__name-kanji {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.guildyou-detail--top-style2__information__name-hiragana {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: YuGothic, "Yu Gothic";
+}
+@media (max-width: 768px) {
+  .guildyou-detail--top-style2__information__name-hiragana {
+    font-size: 22px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-style2__information__name-hiragana {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-style2__information {
+    max-width: inherit;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style2__information {
+    width: 29.5%;
+    padding: 18.6% 0 19%;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-style2__information {
+    width: 35%;
+    padding: 18.6% 0 15%;
+  }
+}
+
+.guildyou-detail--top-style2__quote {
+  width: 100%;
+  max-width: calc(100% - 518px);
+  margin-top: 51px;
+  margin-bottom: 62px;
+}
+
+.guildyou-detail--top-style2__quote h5 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.35;
+  color: #000000;
+  font-family: YuGothic, "Yu Gothic";
+}
+
+@media (max-width: 1024px) {
+  .guildyou-detail--top-style2__quote h5 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style2__quote h5 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-style2__quote h5 {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-style2__quote {
+    max-width: inherit;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style2__quote {
+    width: 100%;
+    margin-bottom: 63px;
+    margin-top: 52px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-style2__quote {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.guildyou-detail--top-style2__description {
+  width: 100%;
+  max-width: calc(100% - 510px);
+  font-size: 15px;
+  color: #000000;
+  line-height: 1.8;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-style2__description {
+    max-width: inherit;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style2__description {
+    width: 100%;
+    font-size: 28px;
+  }
+  .guildyou-detail--top-style2__description br {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-style2__description {
+    font-size: 14px;
+  }
+}
+
+.guildyou-detail--main-style2 {
+  font-family: "Hiragino Sans";
+  font-size: 16px;
+  line-height: 1.875;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+
+.guildyou-detail--main-style2 p, .guildyou-detail--main-style2 ul {
+  width: 100%;
+  display: block;
+  max-width: 990px;
+  letter-spacing: -1px;
+}
+
+.guildyou-detail--main-style2 p:not(:last-child), .guildyou-detail--main-style2 ul:not(:last-child) {
+  margin-bottom: 30px;
+}
+.guildyou-detail--main-style2 p.mt-50 {
+  margin-top: 50px;
+}
+.guildyou-detail--main-style2 p.mb-14 {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-style2 p br, .guildyou-detail--main-style2 ul br {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style2 p:not(:last-child), .guildyou-detail--main-style2 ul:not(:last-child) {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2 p {
+    font-size: 14px;
+  }
+  .guildyou-detail--main-style2 p:not(:last-child), .guildyou-detail--main-style2 ul:not(:last-child) {
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+}
+
+.guildyou-detail--main-style2 strong, .guildyou-detail--main-style2 b {
+  display: block;
+  max-width: 990px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-family: YuGothic, "Yu Gothic";
+}
+
+.guildyou-detail--main-style2 ul, .guildyou-detail--main-style2 li {
+  list-style-type: disc;
+  margin-left: 10px;
+}
+
+.guildyou-detail--main-style2 .text-outline {
+  background-color: #fff799;
+  background-color: rgba(255, 247, 153, 0.9);
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+  padding: 0px 2px;
+  border-radius: 4px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.guildyou-detail--main-style2__block-embed {
+  width: 44.28%;
+  margin-left: 0;
+  margin-bottom: 27px;
+}
+
+.guildyou-detail--main-style2__block-embed .embed-item {
+  position: relative;
+  width: 100%;
+  background-color: #010000;
+}
+
+.guildyou-detail--main-style2__block-embed .embed-item::before {
+  content: '';
+  display: block;
+  padding-top: 56.25%;
+}
+
+.guildyou-detail--main-style2__block-embed .embed-item iframe, .guildyou-detail--main-style2__block-embed .embed-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2__block-embed .embed-item {
+    margin: 0;
+  }
+}
+
+.guildyou-detail--main-style2__block-embed .embed-caption {
+  padding-top: 18px;
+  color: #010000;
+}
+
+.guildyou-detail--main-style2__block-embed .embed-caption p {
+  letter-spacing: 0;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-style2__block-embed {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2__block-embed {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-style2__block-image {
+  width: 45%;
+  padding-right: 50px;
+  margin-left: 0;
+  margin-bottom: 97px;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style2__block-image.mb-hide {
+    display: none;
+  }
+}
+
+.guildyou-detail--main-style2__block-image .image-item {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+.guildyou-detail--main-style2__block-image .image-item.mt-0 {
+  margin-top: 0;
+}
+.guildyou-detail--main-style2__block-image .image-item img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style2__block-image .image-item {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2__block-image .image-item {
+    margin: 0;
+    text-align: center
+  }
+}
+
+.guildyou-detail--main-style2__block-image .image-caption {
+  padding-top: 5px;
+  color: #010000;
+  padding-left: 5px;
+}
+
+.guildyou-detail--main-style2__block-image .image-caption p {
+  letter-spacing: 0;
+}
+@media (max-width: 900px) {
+  .guildyou-detail--main-style2__block-image {
+    padding-right: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style2__block-image {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2__block-image {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-style2__block-image-right {
+  width: 38.5%;
+  margin-left: auto;
+  margin-bottom: 30px;
+  padding-top: 9px;
+}
+
+.guildyou-detail--main-style2__block-image-right .image-item {
+  position: relative;
+  width: 100%;
+}
+.guildyou-detail--main-style2__block-image-right .embed-item {
+  position: relative;
+  width: 100%;
+  background-color: #010000;
+  margin-top: 27px;
+}
+
+.guildyou-detail--main-style2__block-image-right .embed-item::before {
+  content: '';
+  display: block;
+  padding-top: 56.25%;
+}
+
+.guildyou-detail--main-style2__block-image-right .embed-item iframe, .guildyou-detail--main-style2__block-image-right .embed-item video,
+.guildyou-detail--main-style2__block-image-right .embed-item .embed {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.guildyou-detail--main-style2__block-image-right .image-item img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2__block-image-right .image-item {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.guildyou-detail--main-style2__block-image-right .image-caption {
+  padding-top: 17px;
+  color: #010000;
+}
+
+.guildyou-detail--main-style2__block-image-right .image-caption p {
+  letter-spacing: 0;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-style2__block-image-right {
+    width: 50%;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-style2__block-image-right {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2__block-image-right {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-style2__block-text {
+  width: 54%;
+  margin-bottom: 54px;
+}
+@media (max-width: 900px) {
+  .guildyou-detail--main-style2__block-text {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style2__block-text {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2__block-text {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-style2__block-text-right {
+  width: 55%;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-top: 50px;
+}
+@media (max-width: 900px) {
+  .guildyou-detail--main-style2__block-text-right {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style2__block-text-right {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2__block-text-right {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-style2__block-image-750 {
+  display: none;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style2__block-image-750 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .guildyou-detail--main-style2__block-image-750 .image-item img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .guildyou-detail--main-style2__block-image-750 .image-caption {
+    padding-top: 10px;
+    text-align: left;
+  }
+  .guildyou-detail--main-style2__block-image-750 .embed-item {
+    position: relative;
+    width: 100%;
+    background-color: #010000;
+    margin-top: 27px;
+  }
+  
+  .guildyou-detail--main-style2__block-image-750 .embed-item::before {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+  }
+  
+  .guildyou-detail--main-style2__block-image-750 .embed-item iframe, .guildyou-detail--main-style2__block-image-750 .embed-item video,
+  .guildyou-detail--main-style2__block-image-750 .embed-item .embed {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+@media (max-width: 640px) {
+  .guildyou-detail--main-style2__block-image-750 {
+    margin-bottom: 15px;
+  }
+}
+
+/* ---- Style 3 ------- */
+
+.guildyou-detail--top-style3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 173px;
+  margin-bottom: 112px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--top-style3 {
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style3 {
+    padding-top: 35%;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-style3 {
+    margin-bottom: 30px;
+  }
+}
+
+.guildyou-detail--top-style3__img {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  max-width: 475px;
+  margin-right: 0;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-style3__img {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style3__img {
+    width: 65%;
+    top: 53px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-style3__img {
+    width: 59%;
+    top: 44px;
+  }
+}
+
+.guildyou-detail--top-style3__img img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.guildyou-detail--top-style3__information {
+  width: 100%;
+  max-width: calc(100% - 518px);
+  padding: 15px 0;
+  color: #000000;
+  text-align: right;
+}
+
+.guildyou-detail--top-style3__information__appeal-point {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: YuGothic, "Yu Gothic";
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style3__information__appeal-point {
+    font-size: 24px;
+    margin-bottom: 27px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-style3__information__appeal-point {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--top-style3__information__name-kanji {
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--top-style3__information__name-kanji {
+    font-size: 34px;
+    margin-bottom: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-style3__information__name-kanji {
+    font-size: 22px;
+  }
+}
+
+.guildyou-detail--top-style3__information__name-hiragana {
+  font-family: YuGothic, "Yu Gothic";
+  font-weight: 500;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--top-style3__information__name-hiragana {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-style3__information__name-hiragana {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-style3__information {
+    max-width: inherit;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style3__information {
+    width: 30.4%;
+    padding: 18.4% 0 18%;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-style3__information {
+    width: 37%;
+    padding: 18.6% 0 15%;
+    margin-left: -5px;
+  }
+  .guildyou-detail--top-style3__information__appeal-point {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .guildyou-detail--top-style3__information__name-kanji {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .guildyou-detail--top-style3__information__name-hiragana {
+    font-size: 14px;
+  }
+}
+
+
+.guildyou-detail--top-style3__quote {
+  width: 100%;
+  max-width: calc(100% - 518px);
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+
+.guildyou-detail--top-style3__quote h5 {
+  font-family: YuGothic, "Yu Gothic";
+  text-align: left;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.35;
+  color: #000000;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-style3__quote h5 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style3__quote h5 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-style3__quote h5 {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-style3__quote {
+    max-width: inherit;
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style3__quote {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .guildyou-detail--top-style3__quote {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.guildyou-detail--top-style3__description {
+  width: 100%;
+  max-width: calc(100% - 510px);
+  font-size: 15px;
+  color: #000000;
+  line-height: 1.8;
+  font-family: "Hiragino Sans", "Arial";
+  letter-spacing: -1px;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--top-style3__description {
+    max-width: inherit;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--top-style3__description {
+    width: 100%;
+    font-size: 28px;
+  }
+  .guildyou-detail--top-style3__description br {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--top-style3__description {
+    font-size: 14px;
+  }
+}
+
+.guildyou-detail--main-style3 {
+  font-family: "Hiragino Sans";
+  font-size: 16px;
+  line-height: 1.875;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 122px;
+}
+
+@media (max-width: 991px) {
+  .guildyou-detail--main-style3 {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3 {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+}
+.guildyou-detail--main-style3 p.mb-13 {
+  margin-bottom: 13px;
+}
+.guildyou-detail--main-style3 p, .guildyou-detail--main-style3 ul {
+  width: 100%;
+  display: block;
+  max-width: 990px;
+  letter-spacing: -1px;
+}
+
+.guildyou-detail--main-style3 p:not(:last-child), .guildyou-detail--main-style3 ul:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .guildyou-detail--main-style3 p br, .guildyou-detail--main-style3 ul br {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3 p:not(:last-child), .guildyou-detail--main-style3 ul:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-style3 strong, .guildyou-detail--main-style3 b {
+  font-family: YuGothic, "Yu Gothic";
+  display: block;
+  max-width: 990px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+.guildyou-detail--main-style3 ul, .guildyou-detail--main-style3 li {
+  list-style-type: disc;
+  margin-left: 10px;
+}
+
+.guildyou-detail--main-style3 .text-outline {
+  background-color: #fff799;
+  background-color: rgba(255, 247, 153, 0.9);
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+  padding: 0px 2px;
+  border-radius: 4px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.guildyou-detail--main-style3__block-embed {
+  width: 44.3%;
+  margin-left: 0;
+  margin-bottom: 27px;
+}
+
+.guildyou-detail--main-style3__block-embed .embed-item {
+  position: relative;
+  width: 100%;
+  background-color: #010000;
+  margin-top: 27px;
+}
+
+.guildyou-detail--main-style3__block-embed .embed-item::before {
+  content: '';
+  display: block;
+  padding-top: 56.25%;
+}
+
+.guildyou-detail--main-style3__block-embed .embed-item iframe, .guildyou-detail--main-style3__block-embed .embed-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3__block-embed .embed-item {
+    margin: 0;
+  }
+}
+
+.guildyou-detail--main-style3__block-embed .embed-caption {
+  padding-top: 10px;
+  color: #010000;
+  padding-left: 4px;
+}
+
+.guildyou-detail--main-style3__block-embed .embed-caption p {
+  letter-spacing: 0;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-style3__block-embed {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3__block-embed {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-style3__block-image {
+  width: 48.7%;
+  padding-right: 53px;
+  margin-left: 0;
+  margin-bottom: 88px;
+}
+
+.guildyou-detail--main-style3__block-image .image-item {
+  position: relative;
+  width: 100%;
+  margin-top: 25px;
+}
+.guildyou-detail--main-style3__block-image .image-item.mt-0 {
+  margin-top: 0;
+}
+.guildyou-detail--main-style3__block-image .image-item img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style3__block-image .image-item {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3__block-image .image-item {
+    margin: 0;
+    text-align: center
+  }
+}
+
+.guildyou-detail--main-style3__block-image .image-caption {
+  padding-top: 8px;
+  color: #010000;
+}
+
+.guildyou-detail--main-style3__block-image .image-caption p {
+  letter-spacing: 0;
+}
+@media (max-width: 900px) {
+  .guildyou-detail--main-style3__block-image {
+    padding-right: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style3__block-image {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .guildyou-detail--main-style3__block-image .image-caption {
+    text-align: left;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3__block-image {
+    margin-bottom: 15px;
+  }
+}
+
+
+.guildyou-detail--main-style3__block-image-flex {
+  width: 44.437%;
+  padding-right: 50px;
+  margin-left: 0;
+  padding-left: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guildyou-detail--main-style3__block-image-flex .image-item {
+  position: relative;
+  width: 100%;
+  margin-top: -63px;
+}
+.guildyou-detail--main-style3__block-image-flex .image-item.mt-0 {
+  margin-top: 0;
+}
+.guildyou-detail--main-style3__block-image-flex .image-item img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style3__block-image-flex .image-item {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3__block-image-flex .image-item {
+    margin: 0;
+    text-align: center
+  }
+}
+
+.guildyou-detail--main-style3__block-image-flex .image-caption {
+  padding-top: 8px;
+  color: #010000;
+}
+
+.guildyou-detail--main-style3__block-image-flex .image-caption p {
+  letter-spacing: 0;
+}
+@media (max-width: 900px) {
+  .guildyou-detail--main-style3__block-image-flex {
+    padding-right: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style3__block-image-flex {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3__block-image-flex {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-style3__block-text {
+  width: 53%;
+  margin-bottom: 54px;
+}
+
+@media (max-width: 768px) {
+  .guildyou-detail--main-style3__block-text {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3__block-text {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-style3__block-text-right {
+  width: 55%;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-top: 21px;
+}
+@media (max-width: 900px) {
+  .guildyou-detail--main-style3__block-text-right {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style3__block-text-right {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3__block-text-right {
+    margin-bottom: 15px;
+  }
+}
+
+.guildyou-detail--main-style3__block-image-750 {
+  display: none;
+}
+@media (max-width: 768px) {
+  .guildyou-detail--main-style3__block-image-750 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .guildyou-detail--main-style3__block-image-750 .image-item img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .guildyou-detail--main-style3__block-image-750 .image-caption {
+    padding-top: 10px;
+    text-align: left;
+  }
+}
+@media (max-width: 640px) {
+  .guildyou-detail--main-style3__block-image-750 {
+    margin-bottom: 15px;
+  }
+}
+
+/* 
+* guildyou--list-card__btn
+*/
+.guildyou--list-card__btn{margin:57px auto 0}
+.guildyou--list-card__btn .btn-link-lg{margin:auto;display:block;padding:60px 100px 60px 145px;max-width:687px;height:143px;border:solid 1px #626262;background-color:#fff;font-family:YuGothic,"Yu Gothic";font-size:22px;letter-spacing:.55px;text-align:center;color:#424242}
+.guildyou--list-card__btn .btn-link-lg:after{content:'';display:inline-block;margin-left:30px;width:123px;height:5px;background:url(../../assets/image/icon/icon-arrow-right-lg.png) no-repeat;vertical-align:middle}
+@media (min-width: 1200px) {
+  .guildyou--list-card .small-text .card--guildyou__text p{white-space:nowrap;letter-spacing:-2.1px;font-size:14px}
+}
+@media (max-width: 900px) and (min-width: 576px) {
+  .guildyou--list-card .card--guildyou__text{white-space:nowrap}
+  .guildyou--list-card .text-multilines .card--guildyou__title br{display:none}
+  .guildyou--list-card .text-multilines .card--guildyou__text{white-space:normal}
+  .guildyou--list-card .text-multilines .card--guildyou__text p{width:120%}
+  .guildyou--list-card .text-multilines .card--guildyou__copy{margin-top:-1.5em}
+}
+@media (max-width: 575px) {
+  .guildyou--list-card .card--guildyou__text{max-width:calc(100% - 80px)}
+}
+@media (max-width: 768px) {
+  .guildyou--list-card__btn .btn-link-lg{padding-left:15px;padding-right:15px}
+}
+@media (max-width: 480px) {
+  .card--guildyou__wrapper{height:auto}
+}
+/* 
+* guildyou-detail-interview
+*/
+.guildyou-detail--top-interview{font-weight:300;position:relative;padding-top:173px;margin-bottom:108px}
+.guildyou-detail--top-interview__img{position:absolute;top:60px;right:0;width:100%;max-width:472px}
+.guildyou-detail--top-interview__img img{max-width:100%;vertical-align:middle}
+.guildyou-detail--top-interview__information{padding:15px 0;color:#000;text-align:right}
+.guildyou-detail--top-interview__information__appeal-point{font-weight:500;font-size:20px;margin-bottom:20px;font-family:YuGothic,"Yu Gothic"}
+.guildyou-detail--top-interview__information__name-kanji{font-size:33px;margin-bottom:10px}
+.guildyou-detail--top-interview__information__name-hiragana{font-family:YuGothic,"Yu Gothic";font-weight:500;font-size:20px}
+.interview-tako .guildyou-detail--top-interview__information{margin-top:-2px}
+.interview-tako .guildyou-detail--top-interview__information__name-kanji span{margin-right:.35em}
+.guildyou-detail--top-interview__quote{margin-top:45px;margin-bottom:60px}
+.guildyou-detail--top-interview__quote h5{font-family:YuGothic,"Yu Gothic";text-align:left;font-weight:700;font-size:34px;line-height:1.4;color:#000}
+.interview-tako .guildyou-detail--top-interview__quote h5{letter-spacing:.02em}
+.guildyou-detail--top-interview__description{font-size:15px;color:#000;line-height:1.8;font-family:"Hiragino Sans","Arial";letter-spacing:-1px}
+@media (min-width: 992px) {
+  .guildyou-detail--top-interview{padding-right:524px}
+}
+@media (min-width: 769px) {
+  .mb-img-hide{display:none}
+}
+@media (max-width: 768px) {
+  .mb-img-show{display:none}
+}
+.guildyou-detail--main-interview{font-family:"Hiragino Sans","Arial";font-size:16px;font-weight:300;line-height:1.875;color:#000;margin-bottom:122px}
+.guildyou-detail--main-interview .clearfix{clear:both}
+.guildyou-detail--main-interview a{color:inherit;text-decoration:underline}
+.guildyou-detail--main-interview p{width:100%;display:block;letter-spacing:-1px}
+.guildyou-detail--main-interview p:not(:last-child){margin-bottom:30px}
+.guildyou-detail--main-interview ul{width:100%;display:block;max-width:990px;letter-spacing:-1px;list-style-type:disc;margin-left:10px}
+.guildyou-detail--main-interview ul:not(:last-child){margin-bottom:30px}
+.guildyou-detail--main-interview strong{font-family:YuGothic,"Yu Gothic";display:block;max-width:990px;letter-spacing:-1px;font-weight:600}
+.guildyou-detail--main-interview li{list-style-type:disc;margin-left:10px}
+.guildyou-detail--main-interview .text-outline{background-color:rgba(255,247,153,0.9);-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:2px;line-height:1.2;color:#000}
+.guildyou-detail--main-interview__block-embed{float:left;width:43%;margin-left:0;margin-bottom:27px}
+.guildyou-detail--main-interview__block-embed .embed-item{position:relative;width:100%;background-color:#010000;margin-top:27px}
+.guildyou-detail--main-interview__block-embed .embed-item::before{content:'';display:block;padding-top:56.25%}
+.guildyou-detail--main-interview__block-embed .embed-item iframe{position:absolute;width:100%;height:100%;top:0;left:0}
+.guildyou-detail--main-interview__block-embed .embed-item img{position:absolute;width:100%;height:100%;top:0;left:0}
+.guildyou-detail--main-interview__block-embed .embed-caption{padding-top:10px;color:#010000;padding-left:4px}
+.guildyou-detail--main-interview__block-embed .embed-caption p{letter-spacing:0}
+.guildyou-detail--main-interview__block-image{margin-bottom:15px}
+.guildyou-detail--main-interview__block-image img{max-width:100%;display:inline-block;vertical-align:middle}
+.guildyou-detail--main-interview__block-image .image-caption{padding-top:23px;color:#010000}
+.guildyou-detail--main-interview__block-image .image-caption p{letter-spacing:0}
+@media (min-width: 769px) {
+  .guildyou-detail--main-interview__block-image{width:45%;margin-bottom:37px}
+  .guildyou-detail--main-interview__block-image.pos-right{float:right;margin-left:auto}
+  .guildyou-detail--main-interview__block-image.pos-left{float:left;padding-right:80px}
+  .guildyou-detail--main-interview__block-image.pos-left:before{content:"";display:table;clear:both;overflow:hidden}
+}
+.guildyou-detail--main-interview__block-text{margin-bottom:15px}
+@media (min-width: 769px) {
+  .guildyou-detail--main-interview__block-text.pos-left{float:left;width:56%;margin-bottom:58px;margin-top:11px}
+  .guildyou-detail--main-interview__block-text.pos-right{float:right;width:55%;margin-left:auto;padding-left:14px;padding-top:21px}
+}
+@media (max-width: 991px) {
+  .guildyou-detail--main-interview br.lg-show{display:none}
+}
+@media (min-width: 992px) {
+  .guildyou-detail--main-interview .mb-lg-50{margin-bottom:50px!important}
+}
+@media (max-width: 900px) {
+  .guildyou-detail--top-interview{margin-bottom:35px}
+}
+@media (max-width: 991px) {
+  .guildyou-detail--top-interview__img{width:45%}
+  .guildyou-detail--top-interview__information{max-width:inherit;width:50%}
+  .guildyou-detail--top-interview__quote{max-width:inherit;width:50%;margin-bottom:30px}
+  .guildyou-detail--top-interview__quote h5{font-size:30px}
+  .guildyou-detail--top-interview__description{max-width:inherit;width:50%}
+  .guildyou-detail--main-interview{margin-bottom:60px}
+}
+@media (max-width: 768px) {
+  .guildyou-detail--top-interview{padding-top:35%}
+  .guildyou-detail--top-interview__img{width:65%;top:53px}
+  .guildyou-detail--top-interview__information__appeal-point{font-size:24px;margin-bottom:27px}
+  .guildyou-detail--top-interview__information__name-kanji{font-size:34px;margin-bottom:18px}
+  .guildyou-detail--top-interview__information__name-hiragana{font-size:20px}
+  .guildyou-detail--top-interview__information{width:30.4%;padding:18.4% 0 18%}
+  .guildyou-detail--top-interview__quote{width:100%;margin-bottom:40px}
+  .guildyou-detail--top-interview__quote h5{font-size:40px}
+  .guildyou-detail--top-interview__description{width:100%;font-size:28px}
+  .guildyou-detail--main-interview{font-size:28px;margin-bottom:40px}
+  .guildyou-detail--main-interview__block-embed{width:100%}
+  .guildyou-detail--main-interview__block-image{width:100%;padding:0;margin-bottom:30px;text-align:center}
+  .guildyou-detail--main-interview__block-image .image-item{margin-top:0}
+  .guildyou-detail--main-interview__block-image .image-caption{text-align:left}
+  .guildyou-detail--main-interview__block-image-flex{width:100%;padding:0;margin-bottom:30px;text-align:center}
+  .guildyou-detail--main-interview__block-image-flex .image-item{margin-top:0}
+  .guildyou-detail--main-interview__block-text{width:100%;margin-bottom:30px}
+  .guildyou-detail--main-interview__block-text-right{width:100%;padding:0}
+}
+@media (max-width: 640px) {
+  .guildyou-detail--top-interview{margin-bottom:30px}
+  .guildyou-detail--top-interview__description{font-size:14px}
+  .guildyou-detail--main-interview{font-size:14px;margin-bottom:40px}
+  .guildyou-detail--main-interview p:not(:last-child){margin-bottom:15px}
+  .guildyou-detail--main-interview ul:not(:last-child){margin-bottom:15px}
+  .guildyou-detail--main-interview__block-embed{margin-bottom:15px}
+  .guildyou-detail--main-interview__block-embed .embed-item{margin:0}
+  .guildyou-detail--main-interview__block-image{margin-bottom:15px}
+  .guildyou-detail--main-interview__block-image .image-item{margin:0;text-align:center}
+  .guildyou-detail--main-interview__block-text{margin-bottom:15px}
+}
+@media (max-width: 480px) {
+  .guildyou-detail--top-interview__img{width:59%;top:44px}
+  .guildyou-detail--top-interview__information__appeal-point{font-size:16px;margin-bottom:15px;font-size:13px;margin-bottom:10px}
+  .guildyou-detail--top-interview__information__name-kanji{font-size:22px;font-size:20px;margin-bottom:10px}
+  .guildyou-detail--top-interview__information__name-hiragana{font-size:16px;font-size:14px}
+  .guildyou-detail--top-interview__information{width:37%;padding:18.6% 0 15%;margin-left:-5px}
+  .guildyou-detail--top-interview__quote{margin-top:30px;margin-bottom:20px}
+  .guildyou-detail--top-interview__quote h5{font-size:20px}
+}
+/**
+ * INTERVIEW - TAKO
+ */
+@media (min-width: 769px) {
+  .interview-tako .guildyou-detail--main-interview__block-image.first-block .image-item{margin-top:25px}
+  .interview-tako .guildyou-detail--main-interview__block-text.first-block{padding-top:32px}
+  .interview-tako .guildyou-detail--main-interview__block-image.second-block{width:44%;max-width:440px}
+  .interview-tako .guildyou-detail--main-interview__block-image.second-block .image-item{margin-left:5px}
+  .interview-tako .guildyou-detail--main-interview__block-image.second-block .image-caption{padding-top:17px}
+  .interview-tako.guildyou-detail--main-interview{margin-bottom:80px}
+  .interview-tako.guildyou-detail--main-interview .first-block{margin-top:30px}
+  .interview-tako .mb-show{display:none}
+}
+@media (min-width: 992px) {
+  .interview-tako.guildyou-detail--contact{padding-top:50px;padding-bottom:50px;padding-left:60px}
+  .interview-tako .guildyou-detail--contact__name-hiragana{margin-bottom:26px!important;line-height:1.35}
+  .interview-tako .guildyou-detail--contact__btn-link{margin-top:17px;padding:31px 52px}
+  .interview-tako .guildyou-detail--contact__avatar{margin-top:-17px}
+  .interview-tako .guildyou-detail--contact__copy{padding-right:22px;padding-left:58px}
+  .interview-tako .guildyou-detail--contact__copy > p{letter-spacing:0;line-height:1.4}
+}
+@media (max-width: 768px) {
+  .interview-tako .guildyou-detail--main-interview__block-image img{width:100%}
+}
+@media (max-width: 990px) and (min-width: 769px) {
+  .interview-tako .guildyou-detail--main-interview__block-text.second-block{padding-right:30px}
+  .interview-tako .guildyou-detail--main-interview__block-text.first-block{margin-bottom:37px}
+  .interview-tako .guildyou-detail--main-interview__block-image.second-block{padding-right:0}
+}
+@media (max-width: 768px) and (min-width: 641px) {
+  .interview-tako .guildyou-detail--top-interview__information__name-kanji{font-size:40px}
+  .interview-tako .guildyou-detail--top-interview__information__name-hiragana{font-size:24px}
+  .interview-tako .guildyou-detail--top-interview__information__appeal-point{font-size:18px}
+  .interview-tako .guildyou-detail--main-interview{line-height:1.71;margin-bottom:374px}
+  .interview-tako .guildyou-detail--main-interview .first-block .txt-02{margin-top:50px}
+  .interview-tako .guildyou-detail--main-interview__block-image{margin-top:76px;margin-bottom:90px}
+  .interview-tako .guildyou-detail--main-interview__block-image img{width:100%}
+  .interview-tako .guildyou-detail--main-interview__block-image.first-block .image-caption{padding-top:27px}
+  .interview-tako .guildyou-detail--main-interview__block-image.second-block{margin-top:115px;margin-bottom:140px}
+  .interview-tako .guildyou-detail--main-interview__block-image.second-block .image-caption{padding-top:40px}
+  .interview-tako .guildyou-detail--main-interview .second-block .txt-02{margin-top:98px}
+  .interview-tako .guildyou-detail--main-interview .second-block .txt-02 strong{letter-spacing:0}
+  .interview-tako .guildyou-detail--main-interview .txt-last{margin-top:100px}
+  .interview-tako .guildyou-detail--main-interview .txt-last span{display:block;margin-top:50px}
+  .interview-tako .guildyou-detail--main-interview .txt-last strong{letter-spacing:0!important}
+  .interview-tako .guildyou-detail--main-interview .txt-strong{margin-top:2.4em;margin-bottom:50px}
+  .interview-tako .guildyou-detail--main-interview .txt-strong strong{letter-spacing:-1.2px}
+  .interview-tako .guildyou-detail--contact__avatar{max-width:384px;margin-top:-257px}
+  .interview-tako .guildyou-detail--contact__copy{margin-top:25px}
+  .interview-tako .guildyou-detail--contact__name-kanji{line-height:1}
+  .interview-tako .guildyou-detail--contact__name-hiragana{font-size:39px}
+  .interview-tako .guildyou-detail--contact__copy > p.mb-20{line-height:1.71;margin-top:125px;margin-bottom:107px}
+  .interview-tako .guildyou-detail--contact__copy > p.mb-20 span{display:block;margin-bottom:48px}
+  .interview-tako .guildyou-detail--contact__btn-link{padding:106px 40px 89px}
+}
+@media (max-width: 640px) {
+  .interview-tako .guildyou-detail--main-interview{margin-bottom:180px}
+  .interview-tako .guildyou-detail--main-interview__block-image{margin-top:40px;margin-bottom:50px}
+  .interview-tako .guildyou-detail--main-interview__block-image .image-caption{padding-top:15px}
+  .interview-tako .guildyou-detail--main-interview p:not(:last-child){margin-bottom:25px}
+  .interview-tako .guildyou-detail--main-interview .txt-last span{display:block;margin-top:1.4em}
+  .interview-tako .guildyou-detail--main-interview strong{letter-spacing:0}
+  .interview-tako .guildyou-detail--main-interview p + .txt-strong,.interview-tako .guildyou-detail--main-interview .txt-last{margin-top:2.4em}
+}
+@media (max-width: 480px) {
+  .interview-tako .guildyou-detail--header{max-width:60px}
+  .interview-tako .guildyou-detail--top-interview__information__name-hiragana{font-size:12px}
+  .interview-tako .guildyou-detail--top-interview__information__appeal-point{font-size:9px}
+  .interview-tako .guildyou-detail--contact__appeal-point{margin-bottom:6px!important}
+  .interview-tako .guildyou-detail--contact__copy > p.mb-20{margin-top:62.5px;margin-bottom:53px;line-height:1.7;letter-spacing:0}
+  .interview-tako .guildyou-detail--contact__copy > p.mb-20 span{display:block;margin-bottom:15px}
+}  
+/**
+ * INTERVIEW - SHIBA
+ */
+.interview-shiba .guildyou-detail--top-interview__img{max-width:506px}
+@media (max-width: 768px) and (min-width: 641px) {
+  .interview-shiba .guildyou-detail--top-interview__img{top:113px}
+  .interview-shiba .guildyou-detail--top-interview__information{padding:18% 0 15%}
+  .interview-shiba .guildyou-detail--top-interview__information__name-kanji{font-size:40px;margin-bottom:10px}
+  .interview-shiba .guildyou-detail--top-interview__information__name-hiragana{font-size:24px}
+  .interview-shiba .guildyou-detail--top-interview__quote{margin-top:64px;margin-bottom:34px}
+  .interview-shiba .guildyou-detail--main-interview{line-height:1.71;margin-bottom:422px}
+  .interview-shiba .guildyou-detail--main-interview .first-block .txt-02{margin-top:50px}
+  .interview-shiba .guildyou-detail--main-interview__block-image{margin-top:50px;margin-bottom:97px}
+  .interview-shiba .guildyou-detail--main-interview__block-image img{width:100%}
+  .interview-shiba .guildyou-detail--main-interview__block-image.first-block img{max-width:678px}
+  .interview-shiba .guildyou-detail--main-interview__block-image.first-block .image-caption{padding-top:17px}
+  .interview-shiba .guildyou-detail--main-interview__block-image.second-block{margin-top:115px;margin-bottom:140px}
+  .interview-shiba .guildyou-detail--main-interview__block-image.second-block .image-caption{padding-top:40px}
+  .interview-shiba .guildyou-detail--main-interview__block-text.first-block{margin-bottom:40px}
+  .interview-shiba .guildyou-detail--main-interview__block-text.second-block{margin-bottom:44px}
+  .interview-shiba .guildyou-detail--main-interview__block-text.second-block .txt-01{margin-top:95px}
+  .interview-shiba .guildyou-detail--main-interview__block-embed{margin-bottom:94px}
+  .interview-shiba .guildyou-detail--main-interview__block-embed .embed-caption{padding-top:20px}
+  .interview-shiba .guildyou-detail--main-interview .txt-01{margin-top:51px}
+  .interview-shiba .guildyou-detail--main-interview .second-block .txt-02{margin-top:98px}
+  .interview-shiba .guildyou-detail--main-interview .txt-last{margin-top:100px}
+  .interview-shiba .guildyou-detail--main-interview .txt-last span{display:block;margin-top:50px}
+  .interview-shiba .guildyou-detail--main-interview strong{letter-spacing:0}
+  .interview-shiba .guildyou-detail--main-interview .txt-strong{margin-top:50px;margin-bottom:50px}
+  .interview-shiba .guildyou-detail--contact__avatar{max-width:384px;margin-top:-257px}
+  .interview-shiba .guildyou-detail--contact__copy{margin-top:25px}
+  .interview-shiba .guildyou-detail--contact__name-kanji{line-height:1}
+  .interview-shiba .guildyou-detail--contact__name-hiragana{font-size:39px}
+  .interview-shiba .guildyou-detail--contact__copy > p.mb-20{line-height:1.71;margin-top:104px;margin-bottom:130px}
+  .interview-shiba .guildyou-detail--contact__copy > p.mb-20 span{display:block}
+  .interview-shiba .guildyou-detail--contact__btn-link{padding:106px 40px 89px}
+}
+@media (max-width: 768px) {
+  .interview-shiba .guildyou-detail--main-interview__block-image img{width:100%}
+}
+@media (max-width: 640px) {
+  .interview-shiba .guildyou-detail--main-interview__block-image,.interview-shiba .guildyou-detail--main-interview__block-embed{margin-top:20px;margin-bottom:40px}
+  .interview-shiba .guildyou-detail--main-interview .txt-last span{display:block;margin-top:1.4em}
+  .interview-shiba .guildyou-detail--main-interview strong{letter-spacing:0}
+  .interview-shiba .guildyou-detail--main-interview .txt-strong,.interview-shiba .guildyou-detail--main-interview .txt-last{margin-top:2.4em}
+  .interview-shiba p:not(:last-child){margin-bottom:20px}
+}
+@media (min-width: 992px) {
+  .interview-shiba .guildyou-detail--top-interview{padding-right:558px;margin-bottom:60px}
+  .interview-shiba .guildyou-detail--top-interview__img{top:100px}
+  .interview-shiba .guildyou-detail--top-interview__information__name-kanji span{margin-right:.4em}
+  .interview-shiba .guildyou-detail--top-interview__quote{margin-bottom:45px}
+  .interview-shiba .guildyou-detail--main-interview{margin-bottom:70px}
+  .interview-shiba .guildyou-detail--main-interview .first-block{margin-top:42px}
+  .interview-shiba .guildyou-detail--main-interview .image-caption{padding-top:20px}
+  .interview-shiba .guildyou-detail--main-interview__block-text.pos-right{padding-top:0}
+  .interview-shiba .guildyou-detail--main-interview .mb-0{margin-bottom:0}
+  .interview-shiba .guildyou-detail--main-interview__block-image.first-block{padding-right:50px;margin-bottom:0}
+  .interview-shiba .guildyou-detail--main-interview__block-embed.first-block{margin-bottom:56px;margin-top:10px}
+  .interview-shiba .guildyou-detail--main-interview .second-block.pos-right{margin-top:27px;margin-bottom:42px}
+  .interview-shiba .guildyou-detail--main-interview .second-block .embed-item{margin-top:25px}
+  .interview-shiba .guildyou-detail--contact{padding:68px 45px 68px 55px}
+  .interview-shiba .guildyou-detail--contact__name-hiragana{margin-bottom:26px!important;line-height:1.35}
+  .interview-shiba .guildyou-detail--contact__btn-link{margin-top:17px;padding:31px 52px}
+  .interview-shiba .guildyou-detail--contact__avatar{margin-top:-34px}
+  .interview-shiba .guildyou-detail--contact__copy{padding-right:22px;padding-left:60px}
+  .interview-shiba .guildyou-detail--contact__copy > p{letter-spacing:0;line-height:1.35}
+  .interview-shiba .guildyou-detail--contact__copy .mb-20{margin-bottom:45px}
+}
+@media (max-width: 480px) {
+  .interview-shiba .guildyou-detail--header{max-width:60px}
+  .interview-shiba .guildyou-detail--top-interview__img{top:55px}
+  .interview-shiba .guildyou-detail--top-interview__information{padding:14% 0 15%}
+  .interview-shiba .guildyou-detail--top-interview__information__name-hiragana{font-size:12px}
+  .interview-shiba .guildyou-detail--contact{margin-top:170px}
+  .interview-shiba .guildyou-detail--contact__copy > p.mb-20{margin-top:50px;margin-bottom:58px;line-height:1.71}
+  .interview-shiba .guildyou-detail--contact__copy > p.mb-20 span{display:block}
+}
+/**
+ * INTERVIEW - TAMURA
+ */
+.title-mb-show{display:none}
+@media (max-width: 900px) {
+  .interview-tamura .guildyou-detail--contact__copy > p.mb-20{margin-bottom:53px}
+}
+@media (min-width: 769px) {
+  .interview-tamura .guildyou-detail--main-interview{margin-bottom:40px}
+  .interview-tamura .guildyou-detail--main-interview:before{content:"";display:block;float:right;width:486px;height:678px;margin-top:-548px}
+  .interview-tamura .guildyou-detail--main-interview .txt-01,.interview-tamura .guildyou-detail--main-interview .txt02{margin-top:-8px}
+  .interview-tamura .guildyou-detail--main-interview .mb-0{margin-bottom:0}
+  .interview-tamura .guildyou-detail--main-interview__block-image.first-block{margin-top:18px;margin-bottom:22px;padding-left:33px;padding-right:15px}
+  .interview-tamura .guildyou-detail--main-interview__block-image.first-block .image-caption{padding-top:8px}
+  .interview-tamura .guildyou-detail--main-interview__block-image.second-block{margin-top:19px;width:40%;max-width:424px;padding-left:30px}
+  .interview-tamura .guildyou-detail--main-interview__block-image.second-block .image-caption{padding-top:6px}
+  .interview-tamura .guildyou-detail--main-interview__block-text.first-block{padding-top:6px;padding-left:0}
+  .interview-tamura .guildyou-detail--main-interview__block-text.second-block{width:60%}
+}
+@media (max-width: 991px) and (min-width: 769px) {
+  .interview-tamura .guildyou-detail--top-interview{padding-top:190px;margin-bottom:65px}
+  .interview-tamura .guildyou-detail--main-interview:before{content:"";display:block;float:right;width:45%;padding-top:1.39%;height:1px;margin-left:30px;margin-top:0}
+}
+@media (min-width: 992px) {
+  .interview-tamura .guildyou-detail--top-interview{padding-right:482px;margin-bottom:65px}
+  .interview-tamura .guildyou-detail--top-interview__img{max-width:431px;top:100px}
+  .interview-tamura .guildyou-detail--top-interview__quote{margin-bottom:44px}
+  .interview-tamura .guildyou-detail--top-interview__description{line-height:1.6;letter-spacing:1.3px}
+  .interview-tamura .guildyou-detail--contact{padding:66px 60px}
+  .interview-tamura .guildyou-detail--contact__name-hiragana{margin-bottom:30px!important}
+  .interview-tamura .guildyou-detail--contact__avatar{margin-top:-30px}
+  .interview-tamura .guildyou-detail--contact p.mb-20{letter-spacing:0}
+  .interview-tamura .guildyou-detail--contact__btn-link{margin-top:42px;padding-top:32px;padding-bottom:32px;padding-right:45px;min-width:437px}
+}
+@media (min-width: 769px) {
+  .interview-tamura .mb-text-show{display:none}
+}
+@media (max-width: 768px) {
+  .interview-tamura .mb-text-hide{display:none}
+  .interview-tamura .guildyou-detail--top-interview__img{width:60%;max-width:393px;right:-10px;top:20px}
+  .interview-tamura .guildyou-detail--top-interview__information{width:39.4%}
+  .interview-tamura .guildyou-detail--top-interview__information__appeal-point{line-height:1.21;margin-bottom:23px}
+  .interview-tamura .guildyou-detail--main-interview{letter-spacing:1.62px}
+  .interview-tamura .guildyou-detail--main-interview__block-image img{width:100%}
+  .interview-tamura .guildyou-detail--main-interview__block-image.second-block{max-width:631px;width:92%;margin-left:auto;margin-right:auto}
+  .interview-tamura .guildyou-detail--main-interview .second-block .mb-0 strong{letter-spacing:-1.1px}
+}
+@media (max-width: 768px) and (min-width: 641px) {
+  .interview-tamura .title-mb-show{display:block}
+  .interview-tamura .guildyou-detail--top-interview__information{padding-top:12.7%;padding-bottom:20%}
+  .interview-tamura .guildyou-detail--top-interview__quote{margin-bottom:34px}
+  .interview-tamura .guildyou-detail--top-interview__description{letter-spacing:1.62px;line-height:1.72}
+  .interview-tamura .guildyou-detail--top-interview__information__name-kanji{font-size:40px;margin-bottom:12px}
+  .interview-tamura .guildyou-detail--top-interview__information__name-hiragana{font-size:24px}
+  .interview-tamura .guildyou-detail--top-interview__information__appeal-point{line-height:1.21;margin-bottom:23px}
+  .interview-tamura .guildyou-detail--main-interview{line-height:1.71;margin-bottom:344px}
+  .interview-tamura .guildyou-detail--main-interview .txt02{margin-top:2em}
+  .interview-tamura .guildyou-detail--main-interview .first-block .txt-02{margin-top:50px}
+  .interview-tamura .guildyou-detail--main-interview__block-image{margin-top:76px;margin-bottom:68px}
+  .interview-tamura .guildyou-detail--main-interview__block-image img{width:100%}
+  .interview-tamura .guildyou-detail--main-interview__block-image.first-block .image-caption{padding-top:16px}
+  .interview-tamura .guildyou-detail--main-interview__block-image.second-block{margin-top:75px;margin-bottom:58px}
+  .interview-tamura .guildyou-detail--main-interview__block-image.second-block .image-caption{padding-top:8px}
+  .interview-tamura .guildyou-detail--main-interview .second-block .mb-0{margin-bottom:50px!important}
+  .interview-tamura .guildyou-detail--main-interview .second-block .txt-02{margin-top:98px}
+  .interview-tamura .guildyou-detail--main-interview .second-block .txt-02 strong{letter-spacing:0}
+  .interview-tamura .guildyou-detail--main-interview .txt-last{margin-top:100px}
+  .interview-tamura .guildyou-detail--main-interview .txt-last span{display:block;margin-top:50px}
+  .interview-tamura .guildyou-detail--main-interview .txt-last strong{letter-spacing:0!important}
+  .interview-tamura .guildyou-detail--main-interview .txt-strong{margin-top:50px;margin-bottom:50px}
+  .interview-tamura .guildyou-detail--contact__avatar{max-width:384px;margin-top:-257px}
+  .interview-tamura .guildyou-detail--contact__copy{margin-top:28px}
+  .interview-tamura .guildyou-detail--contact__name-hiragana{font-size:39px}
+  .interview-tamura .guildyou-detail--contact__copy > p.mb-20{line-height:1.71;letter-spacing:1.62px;margin-top:90px;margin-bottom:125px}
+  .interview-tamura .guildyou-detail--contact__copy > p.mb-20 span{display:block;margin-bottom:48px}
+  .interview-tamura .guildyou-detail--contact__btn-link{padding:106px 40px 89px}
+}
+@media (max-width: 640px) {
+  .interview-tamura .guildyou-detail--top-interview__information{height:56vw}
+  .interview-tamura .guildyou-detail--main-interview{margin-bottom:160px}
+  .interview-tamura .guildyou-detail--main-interview__block-image{margin-top:40px;margin-bottom:30px}
+  .interview-tamura .guildyou-detail--main-interview__block-image img{width:100%}
+  .interview-tamura .guildyou-detail--main-interview__block-image .image-caption{padding-top:15px}
+  .interview-tamura .guildyou-detail--main-interview p:not(:last-child){margin-bottom:25px}
+  .interview-tamura .guildyou-detail--main-interview .second-block .mb-0{margin-bottom:25px!important}
+}
+@media (max-width: 480px) {
+  .interview-tamura .title-mb-show{display:block}
+  .interview-tamura .guildyou-detail--header{max-width:60px}
+  .interview-tamura .guildyou-detail--top-interview__description p{letter-spacing:.31px}
+  .interview-tamura .guildyou-detail--main-interview p{letter-spacing:.31px}
+  .interview-tamura .guildyou-detail--contact{padding-bottom:30px}
+  .interview-tamura .guildyou-detail--contact__appeal-point{margin-bottom:6px!important}
+  .interview-tamura .guildyou-detail--contact__copy > p.mb-20{margin-top:45px;margin-bottom:53px;line-height:1.72;letter-spacing:.31px}
+  .interview-tamura .guildyou-detail--contact__avatar{margin-bottom:20px}
+}
+/**
+ * INTERVIEW - WAKAI
+ */
+@media (min-width: 1045px) {
+  .interview-wakai .guildyou-detail--main-interview__block-image.second-block{position:relative}
+  .interview-wakai .guildyou-detail--main-interview__block-image.second-block .image-caption{position:absolute;bottom:-2px;left:100%;width:141.5%}
+  .interview-wakai .guildyou-detail--main-interview__block-image.second-block .image-caption{display: none;}
+}
+@media (max-width: 1044px) {
+  .interview-wakai .guildyou-detail--main-interview .caption-txt{display: none;}
+}
+@media (min-width: 769px) {
+  .interview-wakai .guildyou-detail--main-interview{margin-bottom:162px}
+  .interview-wakai .guildyou-detail--main-interview .txt-01{margin-top:42px}
+  .interview-wakai .guildyou-detail--main-interview .txt-02{margin-top:58px}
+  .interview-wakai .guildyou-detail--main-interview .txt-05{margin-top: 60px;}
+  .interview-wakai .guildyou-detail--main-interview .caption-txt{margin-top: 93px;}
+  .interview-wakai .guildyou-detail--main-interview .mb-0{margin-bottom:0}
+  .interview-wakai .guildyou-detail--main-interview__block-image{padding-right:15px}
+  .interview-wakai .guildyou-detail--main-interview__block-image .image-caption{padding-top:14px}
+  .interview-wakai .guildyou-detail--main-interview__block-image.first-block{width:41.5%;margin-top:18px;margin-bottom:22px;padding-left:60px}
+  
+  .interview-wakai .guildyou-detail--main-interview__block-image.second-block{position:relative;margin-top:19px;margin-bottom:68px;width:41.5%}
+  .interview-wakai .guildyou-detail--main-interview__block-text.first-block{width:58.5%;overflow:hidden;padding-top:43px;padding-left:0}
+}
+@media (max-width: 991px) {
+  .interview-wakai .guildyou-detail--top-interview__quote{width:100%}
+}
+@media (min-width: 992px) {
+  .interview-wakai .guildyou-detail--top-interview{padding-top:220px;padding-right:0;margin-bottom:65px}
+  .interview-wakai .guildyou-detail--top-interview__img{max-width:611px;top:58px}
+  .interview-wakai .guildyou-detail--top-interview__quote{margin-top:58px;margin-bottom:70px}
+  .interview-wakai .guildyou-detail--top-interview__information{padding-right:648px}
+  .interview-wakai .guildyou-detail--top-interview__information__appeal-point{line-height:1.2}
+  .interview-wakai .guildyou-detail--contact{padding:54px 60px 39px}
+  .interview-wakai .guildyou-detail--contact__name-hiragana{margin-bottom:30px!important}
+  .interview-wakai .guildyou-detail--contact__avatar{margin-top:-22px}
+  .interview-wakai .guildyou-detail--contact p.mb-20{letter-spacing:0;line-height:1.37}
+  .interview-wakai .guildyou-detail--contact__btn-link{margin-top:8px;padding-top:32px;padding-bottom:32px;padding-right:45px;min-width:437px}
+}
+@media (max-width: 768px) {
+  .interview-wakai .guildyou-detail--top-interview{padding-top:262.5px;margin-bottom:60px}
+  .interview-wakai .guildyou-detail--top-interview__img{width:87%;max-width:580px;right:-10px;top:86px;position:static;margin-left:auto}
+  .interview-wakai .guildyou-detail--top-interview__information{width:70%;padding:0;position:absolute;right:0;top:64px}
+  .interview-wakai .guildyou-detail--top-interview__information__name-kanji{margin-bottom:15px}
+  .interview-wakai .guildyou-detail--top-interview__quote{margin-top:38px;margin-bottom:36px}
+  .interview-wakai .guildyou-detail--main-interview__block-image img{width:100%}
+  .interview-wakai .guildyou-detail--main-interview__block-image.first-block{width:78%;margin-left:auto;margin-right:auto}
+}
+@media (max-width: 768px) and (min-width: 641px) {
+  .interview-wakai .guildyou-detail--top-interview__quote{margin-bottom:34px}
+  .interview-wakai .guildyou-detail--top-interview__description{letter-spacing:1.62px;line-height:1.72}
+  .interview-wakai .guildyou-detail--top-interview__information__name-kanji{font-size:40px}
+  .interview-wakai .guildyou-detail--top-interview__information__name-hiragana{font-size:24px}
+  .interview-wakai .guildyou-detail--top-interview__information__appeal-point{font-size:20px;line-height:1.45;margin-bottom:22px}
+  .interview-wakai .guildyou-detail--main-interview{line-height:1.715;margin-bottom:414px}
+  .interview-wakai .guildyou-detail--main-interview .first-block .txt-02{margin-top:50px}
+  .interview-wakai .guildyou-detail--main-interview__block-image{margin-top:45px;margin-bottom:83px}
+  .interview-wakai .guildyou-detail--main-interview__block-image img{width:100%}
+  .interview-wakai .guildyou-detail--main-interview__block-image.first-block{position:relative;left:-20px;max-width:518px}
+  .interview-wakai .guildyou-detail--main-interview__block-image.first-block .image-caption{padding-top:21px}
+  .interview-wakai .guildyou-detail--main-interview__block-image.second-block{margin-top:60px;margin-bottom:85px}
+  .interview-wakai .guildyou-detail--main-interview__block-image.second-block .image-caption{padding-top:30px;font-size:24px}
+  .interview-wakai .guildyou-detail--main-interview .txt-strong{margin-top:58px;margin-bottom:46px}
+  .interview-wakai .guildyou-detail--main-interview .txt-01{line-height:2.08;margin-bottom:58px}
+  .interview-wakai .guildyou-detail--main-interview .txt-02{margin-top:60px}
+  .interview-wakai .guildyou-detail--main-interview .txt-03{margin-top:50px}
+  .interview-wakai .guildyou-detail--main-interview .txt-04{margin-top:48px}
+  .interview-wakai .guildyou-detail--main-interview .txt-05{margin-top:96px;margin-bottom:48px}
+  .interview-wakai .guildyou-detail--contact{padding-bottom:90px}
+  .interview-wakai .guildyou-detail--contact__avatar{max-width:384px;margin-top:-257px}
+  .interview-wakai .guildyou-detail--contact__copy{margin-top:32px}
+  .interview-wakai .guildyou-detail--contact__name-hiragana{font-size:39px}
+  .interview-wakai .guildyou-detail--contact__appeal-point{letter-spacing:-1.75px;font-size:35px!important}
+  .interview-wakai .guildyou-detail--contact__copy > p.mb-20{line-height:1.71;letter-spacing:1.62px;margin-top:70px;margin-bottom:65px}
+  .interview-wakai .guildyou-detail--contact__copy > p.mb-20 span{display:block;margin-bottom:48px}
+  .interview-wakai .guildyou-detail--contact__btn-link{padding:106px 40px 89px}
+}
+@media (max-width: 640px) {
+  .interview-wakai .guildyou-detail--top-interview{margin-bottom: 30px;}
+  .interview-wakai .guildyou-detail--main-interview{margin-bottom:160px}
+  .interview-wakai .guildyou-detail--main-interview__block-image{margin-top:40px;margin-bottom:30px}
+  .interview-wakai .guildyou-detail--main-interview__block-image img{width:100%}
+  .interview-wakai .guildyou-detail--main-interview__block-image .image-caption{padding-top:15px}
+  .interview-wakai .guildyou-detail--main-interview p:not(:last-child){margin-bottom:25px}
+  .interview-wakai .guildyou-detail--main-interview .second-block .mb-0{margin-bottom:25px!important}
+}
+@media (max-width: 480px) {
+  .interview-wakai .guildyou-detail--top-interview{padding-top:135px;/*margin-bottom:-6px*/}
+  .interview-wakai .guildyou-detail--top-interview__information{top:40px}
+  .interview-wakai .guildyou-detail--top-interview__information__appeal-point{margin-bottom:15px}
+  .interview-wakai .guildyou-detail--top-interview__information__name-kanji{margin-bottom:5px}
+  .interview-wakai .guildyou-detail--top-interview__information__name-hiragana{font-size:12px}
+  .interview-wakai .guildyou-detail--top-interview__quote{margin-top:17px}
+  .interview-wakai .guildyou-detail--header{max-width:60px}
+  .interview-wakai .guildyou-detail--top-interview__description p{letter-spacing:.31px}
+  .interview-wakai .guildyou-detail--main-interview{line-height:1.71;margin-bottom:55.5vw}
+  .interview-wakai .guildyou-detail--main-interview p{letter-spacing:.31px}
+  .interview-wakai .guildyou-detail--main-interview .txt-strong.txt-01{line-height:2.08;margin-bottom:8vw}
+  .interview-wakai .guildyou-detail--main-interview__block-image.first-block{margin-top:6vw;margin-bottom:12vw}
+  .interview-wakai .guildyou-detail--main-interview__block-image.second-block{margin-top:8vw;margin-bottom:11vw}
+  .interview-wakai .guildyou-detail--main-interview .txt-05{margin-top:13vw}
+  .interview-wakai .guildyou-detail--contact{padding-bottom:11vw}
+  .interview-wakai .guildyou-detail--contact__appeal-point{letter-spacing:-1.75px;font-size:17.5px!important;margin-bottom:2vw!important}
+  .interview-wakai .guildyou-detail--contact__copy > p.mb-20{margin-top:8.5vw;margin-bottom:9vw;line-height:1.72;letter-spacing:.31px}
+  .interview-wakai .guildyou-detail--contact__avatar{margin-bottom:20px;margin-top:-148px}
+}
+/**
+ * INTERVIEW - YOSHIMI
+ */
+@media (max-width: 900px) {
+  .interview-yoshimi .guildyou-detail--contact__copy > p.mb-20{margin-bottom:53px}
+}
+@media (min-width: 769px) {
+  .interview-yoshimi .guildyou-detail--main-interview{margin-bottom:35px}
+  .interview-yoshimi .guildyou-detail--main-interview .txt-01{margin-top:53px}
+  .interview-yoshimi .guildyou-detail--main-interview .mb-0{margin-bottom:0}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image.first-block{margin-top:18px;margin-bottom:22px;padding-right:15px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image.first-block .image-caption{padding-top:5px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image.second-block{margin-top:13px;width:45.5%;padding-left:18px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image.second-block .image-caption{padding-top:18px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-text.first-block{width:54.5%;margin-top:24px;padding-top:0;padding-left:0}
+  .interview-yoshimi .guildyou-detail--main-interview__block-text.second-block{margin-top:65px;width:54.5%}
+}
+@media (min-width: 960px) {
+  .interview-yoshimi .guildyou-detail--main-interview:before{content:"";display:block;float:right;width:486px;height:678px;margin-top:-548px}
+}
+@media (min-width: 992px) {
+  .interview-yoshimi .guildyou-detail--top-interview{padding-right:482px;margin-bottom:85px}
+  .interview-yoshimi .guildyou-detail--top-interview__img{text-align:right;max-width:430px;top:100px}
+  .interview-yoshimi .guildyou-detail--top-interview__quote{margin-bottom:44px}
+  .interview-yoshimi .guildyou-detail--top-interview__description{line-height:1.6;letter-spacing:1.3px}
+  .interview-yoshimi .guildyou-detail--contact{padding:66px 60px}
+  .interview-yoshimi .guildyou-detail--contact__name-hiragana{margin-bottom:30px!important}
+  .interview-yoshimi .guildyou-detail--contact__avatar{margin-top:-30px}
+  .interview-yoshimi .guildyou-detail--contact p.mb-20{letter-spacing:0}
+  .interview-yoshimi .guildyou-detail--contact__btn-link{margin-top:42px;padding-top:32px;padding-bottom:32px;padding-right:45px;min-width:437px}
+}
+@media (max-width: 768px) {
+  .interview-yoshimi .guildyou-detail--top-interview__img{width:60%;max-width:396px;right:-10px}
+  .interview-yoshimi .guildyou-detail--top-interview__information{width:39.4%}
+  .interview-yoshimi .guildyou-detail--top-interview__information__appeal-point{line-height:1.21;margin-bottom:23px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image img{width:100%}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image.first-block .image-item{width:94%;max-width:655px;margin-right:auto;margin-left:auto}
+}
+@media (max-width: 768px) and (min-width: 641px) {
+  .interview-yoshimi .guildyou-detail--top-interview{margin-bottom:78px}
+  .interview-yoshimi .guildyou-detail--top-interview__img{top:90px}
+  .interview-yoshimi .guildyou-detail--top-interview__information{padding-top:12.7%;padding-bottom:20%}
+  .interview-yoshimi .guildyou-detail--top-interview__quote{margin-bottom:34px}
+  .interview-yoshimi .guildyou-detail--top-interview__description{letter-spacing:1.62px;line-height:1.72}
+  .interview-yoshimi .guildyou-detail--top-interview__information__name-kanji{font-size:40px;margin-bottom:12px}
+  .interview-yoshimi .guildyou-detail--top-interview__information__name-hiragana{font-size:24px}
+  .interview-yoshimi .guildyou-detail--top-interview__information__appeal-point{line-height:1.21;margin-bottom:51px}
+  .interview-yoshimi .guildyou-detail--main-interview{line-height:1.71;margin-bottom:432px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image{margin-top:38px;margin-bottom:58px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image.first-block .image-caption{padding-top:24px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image.second-block{margin-top:68px;margin-bottom:82px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image.second-block .image-caption{padding-top:29px}
+  .interview-yoshimi .guildyou-detail--main-interview .second-block .mb-0{margin-bottom:50px!important}
+  .interview-yoshimi .guildyou-detail--main-interview .txt-strong{margin-top:50px;margin-bottom:50px}
+  .interview-yoshimi .guildyou-detail--contact__avatar{max-width:384px;margin-top:-257px}
+  .interview-yoshimi .guildyou-detail--contact__copy{margin-top:28px}
+  .interview-yoshimi .guildyou-detail--contact__name-hiragana{font-size:39px}
+  .interview-yoshimi .guildyou-detail--contact__copy > p.mb-20{line-height:1.71;letter-spacing:1.62px;margin-top:90px;margin-bottom:125px}
+  .interview-yoshimi .guildyou-detail--contact__copy > p.mb-20 span{display:block;margin-bottom:48px}
+  .interview-yoshimi .guildyou-detail--contact__btn-link{padding:106px 40px 89px}
+}
+@media (max-width: 640px) {
+  .interview-yoshimi .guildyou-detail--main-interview{margin-bottom:160px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image{margin-bottom:30px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image .image-caption{padding-top:15px}
+  .interview-yoshimi .guildyou-detail--main-interview p:not(:last-child){margin-bottom:25px}
+}
+@media (max-width: 480px) {
+  .interview-yoshimi .guildyou-detail--header{max-width:60px}
+  .interview-yoshimi .guildyou-detail--top-interview{padding-top:34%;margin-bottom:38px}
+  .interview-yoshimi .guildyou-detail--top-interview__img{top:53px}
+  .interview-yoshimi .guildyou-detail--top-interview__information__name-hiragana{font-size:12px}
+  .interview-yoshimi .guildyou-detail--top-interview__quote{margin-top:40px}
+  .interview-yoshimi .guildyou-detail--main-interview{margin-bottom:196px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-text.first-block{margin-bottom:30px}
+  .interview-yoshimi .guildyou-detail--main-interview__block-image.second-block{margin-bottom:35px}
+  .interview-yoshimi .guildyou-detail--contact{padding-bottom:30px}
+  .interview-yoshimi .guildyou-detail--contact__appeal-point{margin-bottom:6px!important}
+  .interview-yoshimi .guildyou-detail--contact__copy > p.mb-20{margin-top:45px;margin-bottom:53px;line-height:1.72;letter-spacing:.31px}
+  .interview-yoshimi .guildyou-detail--contact__avatar{margin-bottom:20px}
+}
