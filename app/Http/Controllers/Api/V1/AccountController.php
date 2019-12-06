@@ -95,7 +95,6 @@ class AccountController extends APIController
             ]);
             $repository = $this->profileRepository;
         }
-
         
         
 
@@ -117,6 +116,9 @@ class AccountController extends APIController
         // Check if the user is allowed to register on the system
         $domainCanRegister = (($type == PROFILE) ? explode(',', env('DOMAIN_CAN_REGISTER_FOR_PROFILE'))
             : explode(',', env('DOMAIN_CAN_REGISTER_FOR_ADMIN')));
+
+        // die($userData['id']);
+        // die($input[$register_type]);
 
         if (empty($userData) || $userData['id'] != $input[$register_type] || !in_array($userDomain, $domainCanRegister)) {
             return $this->throwValidation(__('api.messages.access_denied'));
@@ -155,7 +157,7 @@ class AccountController extends APIController
                 $emailFactory = $this->emailFactory;
                 $activeAccountMailObject = $emailFactory->generateMailType($emailFactory::ACTIVE_PROFILE);
                 $activeAccountMailObject->name = $user->name;
-                $urlActive = DOMAIN_CMS.'/active-account?email=' . $user->email . '&token=' . $tokenConfirm;
+                $urlActive = DOMAIN_CMS.'/account/active-account?email=' . $user->email . '&token=' . $tokenConfirm;
                 $activeAccountMailObject->urlActive = $urlActive;
                 $activeAccountMailObject->toEmail = $user->email ;
                 

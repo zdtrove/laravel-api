@@ -77,7 +77,7 @@ define('GRAPH_URL_TWITTER','https://www.googleapis.com/oauth2/v1/tokeninfo');
 define('GRAPH_URL_FACEBOOK','https://graph.facebook.com/v5.0/me');
 
 //Domain name
-define('DOMAIN_CMS','http://localhost');
+define('DOMAIN_CMS','https://localhost:8080');
 
 define('EXPIRE_CREATE_PASSWORD',45);
 
